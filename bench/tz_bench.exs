@@ -3,6 +3,10 @@ defmodule TzdataBench do
 
   @ts :calendar.datetime_to_gregorian_seconds({{2016,1,1},{0,0,0}})
 
+  setup_all do
+    :application.ensure_all_started :tzdata
+  end
+
   bench "Tzdata.periods" do
     Tzdata.periods("Europe/Amsterdam")
   end

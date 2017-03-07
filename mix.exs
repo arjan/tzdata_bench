@@ -20,7 +20,7 @@ defmodule TzPerfTest.Mixfile do
 
   defp deps do
     [
-      {:tzdata, "0.1.8"},
+      {:tzdata, "0.5.10"},
       {:benchfella, "~> 0.3.0", only: :dev}
     ]
   end
