@@ -1,0 +1,2 @@
+%{"benchfella": {:hex, :benchfella, "0.3.4", "41d2c017b361ece5225b5ba2e3b30ae53578c57c6ebc434417b4f1c2c94cf4f3", [:mix], []},
+  "tzdata": {:hex, :tzdata, "0.1.8", "965c504ce0b65a0fa5ad11dddfb45ad995d7abccb1fdf23247c0b2bcbbe98add", [:mix], []}}

@@ -1,0 +1,4 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+TzdataBench	Tzdata.periods		100000000	6847761
+TzdataBench	Tzdata.periods_for_time		10000000	1616433
